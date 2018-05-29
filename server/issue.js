@@ -32,6 +32,6 @@ function validateIssue(issue) {
   return null;
 }
 
-export default = {
+module.exports = {
   validateIssue: validateIssue
 };

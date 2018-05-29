@@ -268,9 +268,7 @@ var IssueRow = function IssueRow(props) {
 			React.createElement(
 				_reactRouter.Link,
 				{ to: '/issues/' + issue._id },
-				' ',
-				issue._id.substr(-4),
-				' '
+				issue._id.substr(-4)
 			)
 		),
 		React.createElement(

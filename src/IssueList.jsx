@@ -102,7 +102,11 @@ const IssueRow = (props) => {
 	const issue = props.issue;
 	return (
 		<tr>
-			<th scope="row"><Link to={'/issues/'+issue._id}> {issue._id.substr(-4)} </Link></th>
+			<th scope="row">
+				<Link to={'/issues/'+issue._id}> 
+					{issue._id.substr(-4)} 
+				</Link>
+			</th>
 			<td>{issue.status}</td>
 			<td>{issue.owner}</td> 
 			<td>{issue.created.toDateString()}</td> 

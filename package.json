@@ -19,7 +19,7 @@
     ]
   },
   "scripts": {
-    "compile": "./node_modules/.bin/webpack static/App.js --output static/app.bundle.js",
+    "compile": "./node_modules/.bin/webpack --config webpack.config",
     "watch": "./node_modules/.bin/babel --watch src --presets env --out-dir static",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

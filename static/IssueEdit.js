@@ -39,9 +39,7 @@ var IssueEdit = function (_React$Component) {
         _react2.default.createElement(
           'p',
           null,
-          'This is a placeholder for editing issue ',
-          this.props.params.id,
-          '.'
+          'This is a placeholder for editing issue .'
         ),
         _react2.default.createElement(
           _reactRouter.Link,
@@ -55,9 +53,9 @@ var IssueEdit = function (_React$Component) {
   return IssueEdit;
 }(_react2.default.Component);
 
+/*IssueEdit.propTypes = {
+  params: React.PropTypes.object.isRequired
+};*/
+
+
 exports.default = IssueEdit;
-
-
-IssueEdit.propTypes = {
-  params: _react2.default.PropTypes.object.isRequired
-};
